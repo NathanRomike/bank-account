@@ -5,11 +5,11 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Bank of New Money</title>
+    <title>Bank of Money</title>
   </head>
   <body>
     <div class="container">
-      <h1>Welcome to the bank!</h1>
+      <h1>Welcome to your Money!</h1>
       <div class="col-md-3">
         <form class="add-user">
           <div class="form-group">
@@ -33,12 +33,13 @@
             <label for="withdraw-amount">Withdraw Funds</label>
             <input type="number" class="form-control" id="withdraw-amount">
           </div>
-          <div class="col-md-2">
-            <h2>Account Balance</h2>
-            <h3 id="balance">$</h3>
-          </div>
           <button type="submit" class="btn">Update Amount</button>
         </form>
+      </div>
+      <div class="col-md-2 balance">
+        <h2>Hello, newUser.userName</h2>
+        <h3>Current Account Balance:</h3>
+        <h3 id="balance">$</h3>
       </div>
     </div>
   </body>
