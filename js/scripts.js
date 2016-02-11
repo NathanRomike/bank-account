@@ -21,7 +21,8 @@ $(document).ready(function() {
     $("h3#balance").text(newUser.balance);
     $(".add-user").hide();
     $(".balance").show();
-
+    $(".hidden-initdeposit").show();
+    $(".update-amount").show();
 
     $("form.update-amount").submit(function(event) {
       event.preventDefault();

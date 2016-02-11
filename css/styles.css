@@ -1,3 +1,12 @@
 .balance {
   display: none;
 }
+
+.hidden-initdeposit {
+  display: none;
+  width: 34px;
+}
+
+.update-amount {
+  display: none;
+}

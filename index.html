@@ -8,17 +8,21 @@
     <title>Bank of Money</title>
   </head>
   <body>
+    <div class="jumbotron green">
+      <h1>Welcome</h1>
+    </div>
     <div class="container">
-      <h1>Welcome to your Money!</h1>
       <div class="col-md-3">
         <form class="add-user">
           <div class="form-group">
-            <label for="new-name">Name</label>
-            <input type="text" class="form-control" id="new-name">
+            <label for="new-name"></label>
+            <input type="text" class="form-control" id="new-name" placeholder="Enter Online ID" required>
+            <label for="password"></label>
+            <input type="password" class="form-control" id="password" placeholder="Enter Passcode" required>
           </div>
-          <div class="form-group">
+          <div class="form-group hidden-initdeposit">
             <label for="initial-deposit">Initial Deposit</label>
-            <input type="number" class="form-control" id="initial-deposit">
+            <input type="number" class="form-control" id="initial-deposit" required>
           </div>
           <button type="submit" class="btn">Login</button>
         </form>
